@@ -126,3 +126,37 @@ img:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
+/* Card style for About and Contact sections */
+.card {
+    background: linear-gradient(135deg, #ffffff, #e0f7fa); /* subtle gradient */
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* slight lift on hover */
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Card headings */
+.card h2 {
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+/* Card paragraphs */
+.card p {
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Buttons inside cards inherit previous btn style */
+.card .btn {
+    font-size: 1em;
+    padding: 12px 25px;
+    }
