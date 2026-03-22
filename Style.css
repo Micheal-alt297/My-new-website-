@@ -75,3 +75,54 @@ img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
+/* Hero section with gradient */
+.hero {
+    text-align: center;
+    background: linear-gradient(135deg, #1a73e8, #34c759);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+/* Hero heading and paragraph */
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff784e;
+    transform: scale(1.05);
+}
+
+/* Make hero image responsive and centered */
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
